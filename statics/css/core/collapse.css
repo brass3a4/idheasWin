@@ -1,0 +1,41 @@
+#pestania {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width:97.5%;
+}
+#pestania h2 a {
+    background: url("sprite.png") no-repeat scroll 15px 13px transparent;
+    border-bottom: 3px solid #e32500;
+    color: #333;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 9px 9px 9px 32px;
+    text-decoration: none;
+}
+
+#pestania h2.open a {
+    background-position: 14px -24px;
+}
+
+#pestania h2 + div, #pestania h2 + ul, #pestania h2 + p {
+    margin: 0;
+    padding: 10px 0px 10px 10px;
+}
+
+/********************************/
+#subPestanias{
+    width:95%;
+	margin:0% 0% 0% 3%}
+
+
+#pestaniaCasos, #pestaniaCasos h2 a  {
+    width:90%;
+    border-color:#606060;
+	margin:0% 0% 0% 3%;
+    font-size: 14px;
+	color:#606060;
+	}
+

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+ * (es) Estilos principales
+ * 
+ */
+ 
+ /* Reset CSS*/
+
+ @import url(core/reset.css);
+
+
+ /*Login CSS*/
+ @import url(core/login.css);
+ 
+@import url(core/header.css);

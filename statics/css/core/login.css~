@@ -1,0 +1,84 @@
+body{		
+	background-color:#fff;
+}
+#container{
+		position:absolute !important;
+		background-color:#fff !important;
+		margin:5% 0% 20% 30% !important;
+		width:35% !important;
+		border: 2px solid #ccc !important;
+		-moz-box-shadow:10px 10px 10px #aaa !important;
+		-webkit-box-shadow:10px 10px 10px #aaa !important;
+		box-shadow:10px 10px 10px #aaa !important;
+		-moz-border-radius: 29px !important;
+		-webkit-border-radius: 29px !important;
+		border-radius: 29px !important;
+		padding: 0 !important;
+}
+#bienvenido{
+		width:30%;
+		float:right;
+		margin:0% 13% 0% 0%;
+	}
+
+#texto{
+		background-color:#e33 !important;
+		height:5% !important;
+		margin-top:12% !important;
+		
+	}
+
+#logo{
+		width:30%;
+		margin-left: 4%;
+		
+	}
+	
+#formulario{
+		margin:7% 20% 0% 20%;
+	}
+
+#usuario, #contrasenia{
+	width:100%;
+	}
+
+img{
+		width:120%;
+	}
+	
+H2{
+	margin:0% 0% 0% 0%;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+
+
+H1{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#131313;
+	}
+	
+input:focus { border: 2px solid #000; }
+input:invalid { border: 2px solid #F00; }
+
+
+ 
+
+/* 1280px*/
+@media screen and (max-width: 1280px){
+	h1 {font-size: 230%;}
+	bienvenido {width: 120%;}
+	img	{width: 150%;}
+}
+
+/* 1024px*/
+@media screen and (max-width: 1024px){
+	h1 {font-size: 180%;}
+	bienvenido {width: 90%;}
+	img	{width: 120%;}
+}
+/* 800px*/
+@media screen and (max-width: 800px){
+	img	{width: 150%;}
+	h1 {display: none; visibility: hidden; }
+	
+}

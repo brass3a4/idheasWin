@@ -1,0 +1,52 @@
+#demo {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#demo h2 a {
+    background: url("sprite.png") no-repeat scroll 15px 13px transparent;
+    border-bottom: 3px solid #e32500;
+    color: #333;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 9px 9px 9px 32px;
+    text-decoration: none;
+}
+
+#demo h2.open a {
+    background-position: 14px -24px;
+}
+
+#demo h2 + div, #demo h2 + ul, #demo h2 + p {
+    margin: 0;
+    padding: 10px;
+}
+#demo1 {
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#demo1 h3 {
+    background-color: none;
+    margin: 0;
+}
+#demo1 h3 a {
+    background: url("sprite.png") no-repeat scroll 15px 13px transparent;
+    border-bottom: 5px solid #e32500;
+    color: #333;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;;
+    padding: 9px 9px 9px 32px;
+    text-decoration: none;
+}
+
+#demo1 h3.open a {
+    background-position: 13px -25px;
+}
+#demo1 h3 + div {
+    padding: 10px;
+}
+

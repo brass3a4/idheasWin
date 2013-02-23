@@ -1,0 +1,53 @@
+1¬Poder ejecutivo federal¬1¬¬&
+2¬Poder ejecutivo estatal¬1¬¬&
+3¬Poder ejecutivo municipal¬1¬¬&
+4¬Autoridades comunitarias¬1¬¬&
+5¬Autoridades combinadas/mixtas¬1¬Usar cuando interviene más de un nivel de gobierno¬&
+6¬Congreso federal¬2¬¬&
+7¬Poder legislativo estatal¬2¬¬&
+8¬Poder judicial federal¬3¬¬&
+9¬Poder judicial estatal¬3¬¬&
+10¬Organismos públicos de derechos humanos federales¬4¬Ej.: CNDH, CONAPRED, CONDUSEF, IFAI, CONAMED, CDI¬&
+11¬Organismos electorales autónomos federales¬4¬Aplica únicamente al IFE¬&
+12¬Organismos financieros autónomos federales¬4¬Ej.: BANXICO, BANOBRAS, BANCOMEXT, BANRURAL, NACIONAL FINANCIERA, FONDOS, FIDEICOMISOS, ETC.¬&
+13¬Organismos de seguridad social federales¬4¬Ej.: IMSS, ISSSTE, INFONAVIT¬&
+14¬Organismos de recursos naturales y medio ambiente federales¬4¬¬&
+15¬Organismos de producción y servicios públicos federales¬4¬Ej.: PEMEX, CFE, CONAGUA¬&
+16¬Instituciones nacionales de educación e investigación¬4¬Ej.: UNAM, IPN, UAM, CIESAS¬&
+17¬Organismos públicos de derechos humanos estatales¬5¬Aplica a las comisiones y procuradurías estatales de derechos humanos¬&
+18¬Organismos electorales autónomos estatales¬5¬Aplica a los IEEs¬&
+19¬Organismos de seguridad social estatales¬5¬Ej.: ISSSTELeón¬&
+20¬Organismos de recursos naturales y medio ambiente estatales¬5¬¬&
+21¬Organismos de producción y servicios públicos estatales¬5¬¬&
+22¬Instituciones estatales de educación e investigación¬5¬Aplica a universidades públicas estatales¬&
+23¬Congreso federal¬6¬Congreso federal¬&
+24¬Prestador(a) de servicios públicos¬6¬Prestador(a) de servicios públicos¬&
+25¬Funcionario(a) público(a)¬6¬Funcionario(a) público(a)¬&
+26¬Empleado(a) público(a)¬6¬Empleado(a) público(a)¬&
+27¬Empresa privada transnacional¬7¬Ej.: Wal-Mart¬&
+28¬Empresa privada nacional¬7¬Ej.: Grupo México¬&
+29¬Empresa privada local¬7¬¬&
+30¬Institución financiera intergubernamental¬8¬Ej.: BM, FMI¬&
+31¬Institución financiera trasnacional¬8¬Ej.: HSBC, CityBank, Santander Serfín¬&
+32¬Institución financiera nacional¬8¬Ej.: Banorte¬&
+33¬Institución financiera local¬8¬Ej.: Cajas de ahorro, Grupos Grameen¬&
+34¬Grupo de narcotraficantes¬13¬Incluye Cárteles y narcomenudistas. Ej.: Cártel del Golfo¬&
+35¬Grupo traficante de personas o que se dedica a la trata de personas¬13¬Ej.: polleros¬&
+36¬Grupo de traficantes de armas y/o mercancías¬13¬¬&
+37¬Banda de secuestradores¬13¬¬&
+38¬Partido político¬14¬¬&
+39¬Sindicato¬14¬¬&
+40¬Organización civil¬14¬ONG¬&
+41¬Institución y organización asistencial¬14¬Realizan trabajo asistencial independientemente de su figura legal¬&
+42¬Persona que abusa de su poder dentro de la familia¬15¬¬&
+43¬Persona que abusa de su poder dentro de la escuela¬15¬¬&
+44¬Persona que abusa de su poder dentro del trabajo¬15¬¬&
+45¬Persona que abusa de su poder dentro de la comunidad¬15¬¬&
+46¬Persona que abusa de su poder público y político¬15¬Funcionario(a) público(a) que abusa de su poder como tal para obtener beneficio personal. Familiares y amigo(a)s de funcionarios que abusan del poder que les da ser familiares o amigo(a)s de lo(a)s funcionario(a)s¬&
+47¬Persona que abusa de su poder económico y/o financiero¬15¬Empresario(a)s, banquero(a)s o miembros de una empresa o institución financiera¬&
+48¬Persona que abusa de su poder dentro de la iglesia¬15¬¬&
+49¬Persona que abusa del poder de la agrupación¬15¬Golpeadore(a)s de un sindicato, personal de centro de rehabilitación que abusa de los interno(a)s¬&
+50¬Abogado(a) particular¬18¬¬&
+51¬Presunto(a) delincuente común¬18¬Cuando se sospecha que el acto no es puramente de carácter delictivo¬&
+52¬Prestador(a) de servicios privados¬18¬Diferente de empleado(a) público(a) en prestación de servicios, tampoco incluye servicios de seguridad privada¬&
+53¬Sicario(a)¬18¬Asesino(a) a sueldo¬

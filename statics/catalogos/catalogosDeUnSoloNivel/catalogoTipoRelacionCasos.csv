@@ -1,0 +1,7 @@
+1¬Este caso es consecuencia de otro caso¬&
+2¬Este caso es de mayor alcance y abarca uno o más casos reducidos¬&
+3¬Este caso es más reducido y es abarcado por un caso de mayor alcance¬&
+4¬Este caso es previo a otro caso¬&
+5¬Este caso ocasiona la ocurrencia de otro caso¬&
+6¬Este caso ocurre en paralelo con otro caso¬&
+7¬Este caso sucede a otro caso¬ 
