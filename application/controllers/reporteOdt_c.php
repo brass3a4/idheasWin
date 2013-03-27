@@ -199,25 +199,25 @@ class ReporteOdt_c extends CI_Controller
 			foreach ($Data['reporte']['derechoAfectado'] as $key => $value) {
 				
 				if(isset($value['derechoAfectadoNivel']) && isset($value['derechoAfectadoId'])){
-					$contenidoReporte['derechoAfectado'.$key]="\n"."Derecho afectado:  ".$datos['catalogos']['derechosAfectadosCatalogo']['derechosAfectadosN'.$value['derechoAfectadoNivel'].'Catalogos'][$value['derechoAfectadoId']]['descripcion'] ."\n";
+					$contenidoDerechoAfectado['derechoAfectado'.$key]="\n"."Derecho afectado:  ".$datos['catalogos']['derechosAfectadosCatalogo']['derechosAfectadosN'.$value['derechoAfectadoNivel'].'Catalogos'][$value['derechoAfectadoId']]['descripcion'] ."\n";
 				}
 				if(isset($Data['reporte']['actos'][$key]['actoViolatorioId'])){
-					$contenidoReporte['acto'.$key]="Acto:  ". $datos['catalogos']['actosCatalogo']['actosN'.$Data['reporte']['actos'][$key]['actoViolatorioNivel'].'Catalogo'][$Data['reporte']['actos'][$key]['actoViolatorioId']]['descripcion'] ."\n";
+					$contenidoDerechoAfectado['acto'.$key]="Acto:  ". $datos['catalogos']['actosCatalogo']['actosN'.$Data['reporte']['actos'][$key]['actoViolatorioNivel'].'Catalogo'][$Data['reporte']['actos'][$key]['actoViolatorioId']]['descripcion'] ."\n";
 				}
 				if(isset($value['noVictimas'])){
-					$contenidoReporte['noVictimas'.$key] = "No. afectados: ".$value['noVictimas']."\n";
+					$contenidoDerechoAfectado['noVictimas'.$key] = "No. afectados: ".$value['noVictimas']."\n";
 				}
 				if(isset($value['fechaInicial'])){
-					$contenidoReporte['fechaInicial'.$key]="Fecha de inicio:  ".$value['fechaInicial']."\n";
+					$contenidoDerechoAfectado['fechaInicial'.$key]="Fecha de inicio:  ".$value['fechaInicial']."\n";
 				}
 				if($value['tipoFechaInicialId'] > 0){
-					$contenidoReporte['tipoFechaInicioDerechoAfectado'.$key] = "Tipo fecha:  ".$datos['catalogos']['tipoFechaCatalogo'][$value['tipoFechaInicialId']]."\n";
+					$contenidoDerechoAfectado['tipoFechaInicioDerechoAfectado'.$key] = "Tipo fecha:  ".$datos['catalogos']['tipoFechaCatalogo'][$value['tipoFechaInicialId']]."\n";
 				}
 				if(isset($value['fechaTermino'])){
-					$contenidoReporte['fechaTermino'.$key]="Fecha de termino:  " .$value['fechaTermino']."\n";
+					$contenidoDerechoAfectado['fechaTermino'.$key]="Fecha de termino:  " .$value['fechaTermino']."\n";
 				}
 				if(isset($value['tipoFechaTerminoId']) && $value['tipoFechaTerminoId'] > 0){
-					$contenidoReporte['tipoFechaTerminoDerechoAdectado'.$key] = "Tipo fecha:  ".$datos['catalogos']['tipoFechaCatalogo'][$value['tipoFechaTerminoId']]."\n";
+					$contenidoDerechoAfectado['tipoFechaTerminoDerechoAdectado'.$key] = "Tipo fecha:  ".$datos['catalogos']['tipoFechaCatalogo'][$value['tipoFechaTerminoId']]."\n";
 				}
 				
 				$actoId=$Data['reporte']['actos'][$key]['actoId'];
