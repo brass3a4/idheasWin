@@ -216,15 +216,17 @@ class ReportePdf_c extends CI_Controller
 					$nVic = 1;
 					foreach ($Data['reporte']['victimas'] as $key => $value2) {
 						$nPerp = 0;
+						
 						if ($value2['actos_actoId']==$actoId) {
 							$contenidoReporte['victimasComentarios'.$key]= "\n".'Víctima '.$nVic.': '.
 							$datos['catalogos']['ListaTodosActores'][$value2['actorId']]['nombre'] ." ". $datos['catalogos']['ListaTodosActores'][$value2['actorId']]['apellidosSiglas'] ."\n";
-							if(isset($value2['comentarios'])){
-								$contenidoReporte['comentariosVictimasPerpetradores']="\n\nComentarios sobre víctimas y perpetradores:  \n". $value2['comentarios'];
-							}
 							if(isset($value2['estatusVictimaId'])){
-								$contenidoReporte['estatusVictimaId'.$key]="Estado:  ". $datos['catalogos']['estatusVictimaCatalogo']['estatusVictimaCatalogo'][$value2['estatusVictimaId']-1]['descripcion']."\n\n\n";
+								$contenidoReporte['estatusVictimaId'.$key]="Estado:  ". $datos['catalogos']['estatusVictimaCatalogo']['estatusVictimaCatalogo'][$value2['estatusVictimaId']-1]['descripcion']."\n";
 							}
+							if(isset($value2['comentarios'])){
+								$contenidoReporte['comentariosVictimasPerpetradores'.$key]="Comentarios sobre víctimas y perpetradores: ". $value2['comentarios']."\n\n\n";
+							}
+							
 							if (isset($Data['reporte']['perpetradores']	)) {
 								$contenidoReporte['EncabezadoPerpetradores'.$key]="\n\nPerpetradores  "."\n\n";
 								foreach ($Data['reporte']['perpetradores'] as $key => $value3) {
